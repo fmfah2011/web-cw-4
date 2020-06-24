@@ -13,15 +13,47 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
+.flexer{
+display:flex;
+height: 100%;
+
+}
+
+
+
+
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    height: 100%;
+   background-color: dimgrey;
+   color: white;
+   display: inline-block;
+   margin: 5px
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 80px;
+    display: inline-block;
+    background-color: dodgerblue;
+    color: black;
+    height: 20%;
+    margin: 5px;
+border-radius: 10px;
+    
 }
 
 .main{
+    background-color:blue;
+    color: black;
+    height: 80%;
+    margin: 5px;
+    border-radius: 10px;
+  
+    
+
+    
 
 }
 
